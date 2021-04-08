@@ -1,0 +1,10 @@
+GET http://localhost:8000/api/events
+
+###
+POST http://localhost:8000/api/events
+Content-Type: application/json
+
+{
+    "title": "עוד משחק",
+    "amount": 63
+}
